@@ -94,14 +94,26 @@ main{
     justify-content: center;
     align-items: center;
 }
-.final-section-block{
-    width: calc(100% / 5);
+#fix-final-section{
+    justify-content: center;
+    align-items: center;
+}
+.sub-final-section{
+    display: flex;
+    width: 70%;
     height: 85%;
+
+}
+.final-section-block{
+    width: calc(100% / 4);
+    height: 100%%;
     background-color: #fff;
-    border: 2px dotted red;
+    border: 2px solid red;
 }
 .bigger{
-    width: 500px;
+    width: 30%;
+    height: 85%;
+    background-color: #05b6b6;
 }
 /* big section */
 
