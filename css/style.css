@@ -134,7 +134,35 @@ main{
 footer{
     height: 70px;
     width: 100%;
-    display: flex;
     background-color: #232323;
     border-top: 2px dotted rgb(196, 196, 196);
+
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-box{
+    height: 50px;
+    width: 100%;
+    background-color: #b9b9b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    height: 25px;
+    width: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-button{
+    height: 25px;
+    width: 50px;
+    background-color: orange;
+    justify-content: flex-end;
+    align-items: center;
 }
