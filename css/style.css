@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
-    height: 3000px;
     display: flex;
     flex-direction: column;
 }
@@ -22,7 +20,7 @@ body{
 
 /* specifiche header */
 header{
-    height: 2.5%;
+    height: 70px;
     width: 100%;
     background-color: aqua;
     display: flex;
@@ -37,13 +35,13 @@ header{
     height: 50%;
     width: 200px;
     background-color: rgb(133, 133, 133);
-    flex-grow: 3;
+    flex-grow: 4;
 }
 
 /* main */
 
 main{
-    height: 95%;
+    height: 3500px;
     display: flex;
     flex-flow: column;
 }
@@ -93,7 +91,7 @@ main{
 /* big section */
 
 .bigsection{
-    height: 200%;
+    height: 150%;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
@@ -103,8 +101,11 @@ main{
     background-color: pink;
     height: 90%;   
 }
+
+/* footer */
+
 footer{
-    height: 250px;
+    height: 105%;
     width: 100%;
     display: flex;
     background-color: rgb(35, 35, 35);
