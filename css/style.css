@@ -6,7 +6,7 @@
 }
 body{
     width: 100%;
-    height: 5067px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
 }
@@ -20,10 +20,9 @@ body{
     justify-content: center ;
 }
 
-
 /* specifiche header */
 header{
-    height: 1.5%;
+    height: 5%;
     width: 100%;
     background-color: aqua;
     display: flex;
@@ -41,13 +40,32 @@ header{
     flex-grow: 3;
 }
 
+/* main */
+
+main{
+    height: 95%;
+    display: flex;
+    flex-flow: column;
+}
+/* jumbotron */
+
 .jumbotron{
-    height: 300px;
+    height: 100%;
     width: 100%;
     background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+.jumbotron-content{
+    background-color: pink;
+    height: 85%;
+    width: 65%;
+
 }
 .main-sections{
-    height: 300px;
+    height: 100%;
     width: 100%;
     background-color: grey;
 }
@@ -55,7 +73,7 @@ header{
     background-color: #fff;
 }
 .bigsection{
-    height: 450px;
+    height: 100%;
 }
 footer{
     height: 250px;
