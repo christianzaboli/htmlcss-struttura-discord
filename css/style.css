@@ -87,7 +87,22 @@ main{
 .middle{
     order: 1;
 }
-
+.final-section{
+    background-color: #232323;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.final-section-block{
+    width: calc(100% / 5);
+    height: 85%;
+    background-color: #fff;
+    border: 2px dotted red;
+}
+.bigger{
+    width: 500px;
+}
 /* big section */
 
 .bigsection{
@@ -105,8 +120,9 @@ main{
 /* footer */
 
 footer{
-    height: 105%;
+    height: 70px;
     width: 100%;
     display: flex;
-    background-color: rgb(35, 35, 35);
+    background-color: #232323;
+    border-top: 2px dotted rgb(196, 196, 196);
 }
