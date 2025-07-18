@@ -47,6 +47,7 @@ main{
     display: flex;
     flex-flow: column;
 }
+
 /* jumbotron */
 
 .jumbotron{
@@ -64,13 +65,29 @@ main{
     width: 65%;
 
 }
+
+/* main .main-sections */
+
 .main-sections{
     height: 100%;
     width: 100%;
-    background-color: grey;
+    background-color: #b9b9b9;
 }
 .white-bg{
     background-color: #fff;
+}
+.text-block{
+    width: 60%;
+    height: 85%;
+    background-color: #05b6b6;
+}
+.img-block{
+    width: 40%;
+    height: 85%;
+    background-color: #be36a8;
+}
+.middle{
+    order: 1;
 }
 .bigsection{
     height: 100%;
