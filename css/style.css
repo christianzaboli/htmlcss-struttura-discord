@@ -1,8 +1,65 @@
+/* generals */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
+    width: 100%;
+    height: 5067px;
     display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center ;
+}
+
+
+/* specifiche header */
+header{
+    height: 1.5%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-flow: row;
+}
+.small-header-sect{
+    height: 50%;
+    width: 200px;
+    background-color: white;
+}
+.big-header-sect{
+    height: 50%;
+    width: 200px;
+    background-color: rgb(133, 133, 133);
+    flex-grow: 3;
+}
+
+.jumbotron{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+}
+.main-sections{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+}
+.white-bg{
+    background-color: #fff;
+}
+.bigsection{
+    height: 450px;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(35, 35, 35);
 }
