@@ -9,7 +9,7 @@ body{
     flex-direction: column;
 }
 .container{
-    width: 80%;
+    width: 75%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -22,26 +22,34 @@ body{
 header{
     height: 70px;
     width: 100%;
-    background-color: aqua;
+    
     display: flex;
     flex-flow: row;
 }
 .small-header-sect{
     height: 50%;
     width: 200px;
-    background-color: white;
+    display: flex;
+    align-items: center;
 }
 .big-header-sect{
     height: 50%;
     width: 200px;
-    background-color: rgb(133, 133, 133);
+    display: flex;
     flex-grow: 4;
+    align-items: center;
+    justify-content: center;
+}
+#login-header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 /* main */
 
 main{
-    height: 3500px;
+    height: 4000px;
     display: flex;
     flex-flow: column;
 }
@@ -51,14 +59,12 @@ main{
 .jumbotron{
     height: 100%;
     width: 100%;
-    background-color: blue;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
     justify-content: center;
 }
 .jumbotron-content{
-    background-color: pink;
     height: 85%;
     width: 65%;
 
@@ -77,12 +83,10 @@ main{
 .text-block{   
     height: 85%;
     width: 60%;
-    background-color: #05b6b6;
 }
 .img-block{
     width: 40%;
     height: 85%;
-    background-color: #be36a8;
 }
 .middle{
     order: 1;
@@ -107,13 +111,10 @@ main{
 .final-section-block{
     width: calc(100% / 4);
     height: 100%;
-    background-color: #fff;
-    border: 2px solid red;
 }
 .bigger{
     width: 30%;
     height: 85%;
-    background-color: #05b6b6;
 }
 /* big section */
 
@@ -125,7 +126,6 @@ main{
     justify-content: center;
 }
 .bigsection-content{
-    background-color: pink;
     height: 90%;   
 }
 
@@ -135,7 +135,6 @@ footer{
     height: 70px;
     width: 100%;
     background-color: #232323;
-    border-top: 2px dotted rgb(196, 196, 196);
 
 }
 .footer-container{
@@ -146,7 +145,6 @@ footer{
 .footer-box{
     height: 50px;
     width: 100%;
-    background-color: #b9b9b9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,7 +152,6 @@ footer{
 .footer-logo{
     height: 25px;
     width: 40px;
-    background-color: orange;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -162,7 +159,55 @@ footer{
 .footer-button{
     height: 25px;
     width: 50px;
-    background-color: orange;
-    justify-content: flex-end;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+
+/* debug */
+
+
+.debug header{
+    background-color: aqua;
+}
+.debug .small-header-sect{
+    background-color: white;
+}
+.debug .big-header-sect{   
+    background-color: rgb(133, 133, 133);
+}
+
+.debug .jumbotron{
+    background-color: blue;
+}
+.debug .jumbotron-content{
+   background-color: pink;
+}
+.debug .text-block{
+    background-color: #05b6b6;
+}
+.debug .img-block{
+    background-color: #be36a8;
+}
+.debug .final-section-block{
+    background-color: #fff;
+    border: 2px solid red;
+}
+.debug .bigger{
+    background-color: #05b6b6;
+}
+.debug footer{    
+    border-top: 2px dotted rgb(196, 196, 196);
+}
+.debug .footer-box{
+    background-color: #b9b9b9;
+}
+.debug .bigsection-content{
+    background-color: pink;
+}
+.debug .footer-logo{
+    background-color: orange;
+}
+.debug .footer-button{
+    background-color: orange;
 }
